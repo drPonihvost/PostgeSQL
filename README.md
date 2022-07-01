@@ -11,10 +11,10 @@ PGADMIN_CONFIG_SERVER_MODE= Режим сервера (False)
 
 
 Start
-docker-compose --project-name="myproject-pg-13.3" up -d
+docker-compose --project-name="myproject-pg" up -d
 
 Stop
-docker-compose --project-name="myproject-pg-13.3" down
+docker-compose --project-name="myproject-pg" down
 
 Access to PgAdmin
 Open in browser http://localhost:5050
